@@ -1,4 +1,5 @@
 const axios = require("axios");
+// api key 제거
 
 export const searchYouTube = ({ query, max, key }, callback) => {
   let url = new URL("https://www.googleapis.com/youtube/v3/search");
