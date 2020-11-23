@@ -3,7 +3,7 @@ import Nav from "./Nav";
 import VideoPlayer from "./VideoPlayer";
 import VideoList from "./VideoList";
 import { searchYouTube } from "../searchYouTube";
-import { YOUTUBE_API_KEY } from "../../config/youtube";
+// import { YOUTUBE_API_KEY } from "../../config/youtube";
 import { fakeData } from "./__test__/fakeData";
 
 class App extends React.Component {
